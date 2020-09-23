@@ -1,14 +1,16 @@
 CP = g++
 CF = -std=c++11
+PATH = ./src/
+OUTPUT = path
 
 all: main.o Map.o
-	$(CP) $(CF) main.o Map.o -o path
+	$(CP) $(CF) main.o Map.o -o $(OUTPUT)
 
-main.o: main.cpp
-	$(CP) $(CF) -c main.cpp -o main.o
+main.o: $(PATH)main.cpp
+	$(CP) $(CF) -c $(PATH)main.cpp -o main.o
 
-Map.o: Map.cpp
-	$(CP) $(CF) -c Map.cpp -o Map.o
+Map.o: $(PATH)Map.cpp
+	$(CP) $(CF) -c $(PATH)Map.cpp -o Map.o
 
 clean:
-	rm -f *.o path
+	rm Map.o main.o path
