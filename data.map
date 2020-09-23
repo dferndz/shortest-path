@@ -1,0 +1,23 @@
+#MapNodes
+Bandera 29.729726 -99.076176 
+Boerne 29.781751 -98.734032 
+Comfort 29.976615 -98.902167 
+Fredericksburg 30.274599 -98.871521 
+Intersection_10_290 30.292849 -99.531138 
+Intersection_46_16 29.711575 -98.889830 
+Kerrville 30.048850 -99.138432  
+Mountain_Home 30.178323 -99.372394 
+
+
+#Links
+US-290 Intersection_10_290 Fredericksburg 40.1
+I-10 Intersection_10_290 Mountain_Home 13.1
+I-10 Mountain_Home Kerrville 17.8
+TX-16 Kerrville Fredericksburg 22.9
+US-87 Fredericksburg Comfort 22.6
+I-10 Comfort Boerne 19.7
+TX-46 Boerne Intersection_46_16 11.3
+TX-16 Intersection_46_16 Bandera 13.6
+TX-173 Bandera Kerrville 24.5
+TX-16 Bandera Kerrville 37.1
+I-10 Kerrville Comfort 17.9
