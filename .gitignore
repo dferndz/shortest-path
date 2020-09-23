@@ -1,2 +1,6 @@
 *.o
 path
+.DS_Store
+.env
+.envrc
+.vscode
