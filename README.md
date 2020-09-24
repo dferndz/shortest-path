@@ -2,7 +2,7 @@
 
 This C++ software implements Dijkstra's algorithm to find the shortest path between linked nodes, that represent locations.</br>
 
-Custome data structures are used:</br>
+Custom data structures are used:</br>
 - array list
 - linked list
 - doubly linked list
